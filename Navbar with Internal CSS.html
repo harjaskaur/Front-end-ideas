@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Navigation</title>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: #1e81b0; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  width: 20%; 
+  padding: 15px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 24px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #063970; /* Add an active/current color */
+}	
+</style>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="icon-bar">
+  <a class="active" href="#">Home</a> 
+  <a href="#">Search</a> 
+  <a href="#">About Us</a> 
+  <a href="#">Contact Us</a>
+  <a href="#">Sign Up</a> 
+</div>
+
+</body>
+</html>
